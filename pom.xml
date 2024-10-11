@@ -106,6 +106,21 @@
 			<artifactId>junit</artifactId>
 			<version>3.8.1</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-
+  		<!-- Selenium -->
+		  <dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>4.0.0</version>
+		  </dependency>
+		
+		  <!-- TestNG -->
+		  <dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.4.0</version>
+		    <scope>test</scope>
+		  </dependency>
+
 	</dependencies>
 </project>
